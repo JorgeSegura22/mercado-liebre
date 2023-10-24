@@ -1,0 +1,107 @@
+
+.h2-section {
+  font-size: 24px;
+
+
+  height: 60px;
+  text-align: center;
+  display: inline;
+;
+  
+}
+.p-precio {
+
+  font-size: 18px;
+}
+.p-descuento-descripcion {
+
+  font-size: 16px;
+}
+.p-cuerpo {
+ 
+  font-size: 12px;
+}
+
+.section-body1 {
+  background-color: white;
+  width: 40%;
+  height: 80%;
+  border: 10px solid #ebebeb;
+  padding: 0;
+ margin-left: 200px;
+ box-sizing: border-box
+}
+.section-logo {
+  padding: 40px;
+}
+.section-banner {
+    border: 10px solid #ebebeb;;;
+    width: 40%;
+    height: 100%;
+  background-size: cover;
+ margin-left: 200px;
+ box-sizing: border-box
+}
+
+.section-footer {
+
+    border: 10px solid #ebebeb;
+text-align: center;
+  margin-left: 200px;
+padding: 0;
+  background-color: white;
+height: 700x;
+width: 40%;
+  box-sizing: border-box
+}
+article {
+  padding-left: 200px;
+  
+}
+
+p,h4{
+  text-align: center;
+}
+
+
+.texto-footer{
+
+    text-align: center;
+}
+.texto-header{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 12px;
+  
+}
+
+.texto-buscador{
+    color:#ebebeb;
+   
+    margin-top: 5px;
+}
+footer article i{
+  font-size: 2em;
+  color: var(--color-Azul);
+  
+  display: inline-block;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+ article img{
+  padding: 10% 10% 10% 25%;
+  width: 50%;
+  height: 50%;
+
+}
+.article h2{
+  background-color: #ebebeb;
+  text-align: center;
+  display: inline-block;
+  width: 47.6%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  
+}

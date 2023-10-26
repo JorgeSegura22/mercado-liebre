@@ -1,107 +1,85 @@
-
+body{
+  background-color: #ebebeb;;
+}
 .h2-section {
-  font-size: 24px;
-
-
-  height: 60px;
+  font-size: 6vw;
+  background-color: #ebebeb;
+  width: 25%wv;
+  height: 5%wv;
   text-align: center;
-  display: inline;
-;
-  
+
 }
 .p-precio {
-
   font-size: 18px;
 }
 .p-descuento-descripcion {
-
-  font-size: 16px;
+  font-size: 0.75em;
 }
 .p-cuerpo {
- 
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .section-body1 {
   background-color: white;
-  width: 40%;
-  height: 80%;
+  width: 100vw;
+  margin: 0;
   border: 10px solid #ebebeb;
   padding: 0;
- margin-left: 200px;
- box-sizing: border-box
+  box-sizing: border-box;
+  padding-bottom: 5%;
 }
 .section-logo {
-  padding: 40px;
+  padding: 5%;
+  width: 50%;
+  box-sizing: border-box;
 }
+
 .section-banner {
-    border: 10px solid #ebebeb;;;
-    width: 40%;
-    height: 100%;
-  background-size: cover;
- margin-left: 200px;
- box-sizing: border-box
+  padding: 0;
+  margin: 0;
+  width: 100%vw;
+  height: 100%vh;
+  overflow: hidden;
+ 
+  
 }
 
 .section-footer {
 
-    border: 10px solid #ebebeb;
-text-align: center;
-  margin-left: 200px;
-padding: 0;
   background-color: white;
-height: 700x;
-width: 40%;
-  box-sizing: border-box
-}
-article {
-  padding-left: 200px;
-  
-}
-
-p,h4{
-  text-align: center;
-}
-
-
-.texto-footer{
-
-    text-align: center;
-}
-.texto-header{
-    margin-left: 100px;
-    margin-top: 50px;
-    font-size: 12px;
-  
-}
-
-.texto-buscador{
-    color:#ebebeb;
-   
-    margin-top: 5px;
-}
-footer article i{
-  font-size: 2em;
-  color: var(--color-Azul);
-  
-  display: inline-block;
-  margin-right: 200px;
-  margin-top: 20px;
-}
- article img{
-  padding: 10% 10% 10% 25%;
-  width: 50%;
-  height: 50%;
-
-}
-.article h2{
-  background-color: #ebebeb;
-  text-align: center;
-  display: inline-block;
-  width: 47.6%;
+  width: 100vw;
   margin: 0;
+  border: 10px solid #ebebeb;
   padding: 0;
   box-sizing: border-box;
- 
-  
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+
+p,
+h4 {
+  text-align: center;
+}
+
+
+.texto-header {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 12px;
+}
+
+footer article i {
+  font-size: 2em;
+  color: var(--color-Azul);
+
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+article img {
+  padding: 10% 10% 10% 25%;
+  width: 50%;
+  height: 25%;
 }

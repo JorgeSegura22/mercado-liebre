@@ -14,63 +14,41 @@
   
   font-family: 'Roboto', sans-serif;
 
-
+margin: 0;
+padding: 0;
 }
 
+body{
+  width: 100%vw;
 
+  box-sizing: border-box
+}
 
 
 .header-body {
     background-color:var(--color-Amarillo);
-    width: 500px;
-    height: 550px;
-    margin-top: 20px;
-    margin-left: 200px;
-    padding: 0;
-   
-    box-sizing: border-box
-  }
-  .section-buscador {
-    background-color: white;
-    margin: 20px;
-    width: 380px;
-    height: 30px;
+    width: 100%wv;
     
-    border: 2px solid #666;;;
   }
-  
   
   
   .icom-hamburguesa {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-position: center;
     padding: 0;
   
-    width: 40px;
-    height: 40px;
-    margin-left: 215px;
+    width: 10%;
+    height:30px;
+    margin-left: 45%;
     background-repeat: no-repeat;
   
     display: inline-block;
     background-color:var(--color-Celeste);
-  
+  border-radius: 5px;
     background-image: url("/img/icom/icom\ buscador\ blanca.svg");
   }
   
-  .icom-buscador {
-    margin-top: 5px;
-    margin-bottom: 20px;
-    background-color: white;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("/img/icom/icom\ buscador.svg");
-    border: 2px solid #666;;
-  }
   
   ul,
   a {

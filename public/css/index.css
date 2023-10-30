@@ -1,9 +1,49 @@
 body{
-  background-color: #ebebeb;;
+ 
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ebebeb;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  box-sizing: border-box;
+ 
+ 
+
+
+}
+.main_section_article_descripción_precio_decuento_logo_envío{
+box-sizing: border-box;
+border-top: 1px solid var(--Gris-claro);
+padding: 15px;
+
+}
+
+header{
+ 
+  width: 100%;
+}
+
+.section-footer {
+
+  background-color: white;
+  width: 90%;
+  margin: 0;
+margin-top: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  padding-bottom: 5%;
+  text-align: center;
 }
 .h2-section {
-  font-size: 6vw;
-  background-color: #ebebeb;
+  font-size: 24px;
+  background-color:var(--Gris-claro);
   width: 25%wv;
   height: 5%wv;
   text-align: center;
@@ -12,19 +52,25 @@ body{
 .p-precio {
   font-size: 18px;
 }
-.p-descuento-descripcion {
+.p-descuento{
   font-size: 0.75em;
+  color:var(--color-Verde)
+}
+.p-descripción{
+  font-size: 18px;
 }
 .p-cuerpo {
   font-size: 0.75em;
 }
 
 .section-body1 {
+ 
+padding-top: 10px;
   background-color: white;
-  width: 100vw;
+  width: 100%;
   margin: 0;
-  border: 10px solid #ebebeb;
-  padding: 0;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  
   box-sizing: border-box;
   padding-bottom: 5%;
 }
@@ -34,26 +80,18 @@ body{
   box-sizing: border-box;
 }
 
-.section-banner {
-  padding: 0;
-  margin: 0;
-  width: 100%vw;
-  height: 100%vh;
-  overflow: hidden;
+.section-banner img {
+  
+   width: 100%;
+   box-sizing: border-box;
  
   
 }
 
-.section-footer {
+.nav_header a{
 
-  background-color: white;
-  width: 100vw;
-  margin: 0;
-  border: 10px solid #ebebeb;
-  padding: 0;
-  box-sizing: border-box;
-  padding-bottom: 5%;
-  text-align: center;
+display: block;
+padding: 5px;
 }
 
 
@@ -66,7 +104,7 @@ h4 {
 .texto-header {
   margin-left: 10%;
   margin-top: 5%;
-  margin-bottom: 10%;
+  
   font-size: 12px;
 }
 
@@ -79,7 +117,18 @@ footer article i {
   margin-bottom: 40px;
 }
 article img {
-  padding: 10% 10% 10% 25%;
-  width: 50%;
+ margin-left: 25px;
+  width: 70%;
   height: 25%;
+}
+.home_main_section_ultimas_vistas article{
+margin-top: 10px;
+
+}
+.home_main_section_seccion_de_ofertas article{
+  margin-top: 10px;
+}
+
+.nav_header{
+  display: none;
 }

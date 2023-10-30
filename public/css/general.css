@@ -13,7 +13,7 @@
 *{
   
   font-family: 'Roboto', sans-serif;
-
+box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
@@ -37,7 +37,7 @@ body{
     margin-bottom: 5%;
     background-position: center;
     padding: 0;
-  
+  color:#fff;
     width: 10%;
     height:30px;
     margin-left: 45%;
@@ -53,6 +53,66 @@ body{
   ul,
   a {
     list-style: none;
-   
+   margin: 0;
+   padding: 0;
+   color: black;
+   text-decoration: none;
+   margin-top: 10px;
   }
+  @media (min-width: 361px) {
+    .header-body{
+      padding-top: 30px;
   
+    }
+    .nav_header{
+      display: block;
+      display: flex;
+     
+      justify-content: space-between;
+    }
+    .icom-hamburguesa{
+      display: none;
+    }
+    .nav_a_la_izquierda{
+      display: flex;
+box-sizing: border-box;
+padding-bottom: 10px;
+    }
+    .nav_a_la_derecha{
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+    align-items: center;
+     gap: 10px;
+      padding-bottom: 10px;
+     
+    }
+   
+    .header_logo_compras{
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+    .section-logo{
+      width: 30%;
+      height: 30%;
+    }
+.header_buscador_cuotas{
+  display: flex;
+ gap: 70px;
+  padding: 10px;
+  justify-content:flex-start;
+  align-items: center;
+  width: 80%;
+ 
+}
+.section-body1{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.texto-header{
+  display: block;
+ 
+}
+
+
+  }

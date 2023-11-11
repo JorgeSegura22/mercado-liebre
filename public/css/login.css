@@ -1,0 +1,13 @@
+.form-login{
+border: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 30%;
+    margin-left: 35%;
+    background-color:rgb(100, 100, 100) ;
+}
+ form article{
+
+    padding: 2%;
+ }

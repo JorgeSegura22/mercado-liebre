@@ -1,0 +1,29 @@
+.form-registro{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    width: 60vw;
+    height: 160vh;
+    padding: 2%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   font-family: "roboto";
+ margin: 10% 22%;
+
+ background-color: rgb(100, 100, 100);
+ color: aliceblue;
+
+
+
+}
+
+.form-registro article{
+
+    padding: 1%;
+}
+
+input{
+    border-radius: 30px;
+}
+

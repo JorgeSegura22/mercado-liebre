@@ -119,6 +119,11 @@ margin-top: 10px;
        top: -31px;
        
      }
+     .form-registro{
+
+      margin: 10%;
+      width: 50%;
+     }
 
 }
 
@@ -195,9 +200,15 @@ margin-top: 10px;
    height: 28.5px;
     margin-left: 30px;
     top: -31px;
+
+    
     
   }
-  
+  .form-registro{
+
+    margin: 10%;
+    width: 30%;
+   }
 }
 button{
   background-color: #1259c3;

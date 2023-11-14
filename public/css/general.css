@@ -16,7 +16,6 @@
 
 body {
   width: 100%vw;
-
   box-sizing: border-box;
 }
 
@@ -51,169 +50,223 @@ a {
   text-decoration: none;
   margin-top: 10px;
 }
-.nav_header{
+.nav_header {
   display: none;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    height: 65vh;
+  }
+  header img {
+    margin-left: -70px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    padding: 0;
+  
+  }
 
-  .icom-hamburguesa{
+  .icom-hamburguesa {
     display: none;
   }
-  
-  .nav_header{
+
+  .nav_header {
     display: block;
     display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+    margin-bottom: 100px;
+  }
+
+  .nav_a_la_izquierda {
+    display: flex;
+    
+    border: 2px solid red;
    
-   justify-content: space-around;
+  }
+  .nav_a_la_derecha {
+    display: flex;
    
   }
 
-  .nav_a_la_izquierda{
-display: flex;
-padding: 1%;
-  }
-  .nav_a_la_derecha{
-    display: flex;
-    padding: 1%;
-  }
-  .header_logo_compras{
+  
+  .header_logo_compras {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+  }
 
-    
-    }
-    .header_logo_compras div{
-      padding: 1%;
-    }
+  .header_logo_compras div {
+    padding: 1%;
+  }
 
-    .nav_a_la_izquierda li a{
-      padding-right: 10px;
-      margin: 0;
-    }
-    .nav_a_la_derecha li a{
-      padding-right: 10px;
-      margin: 0;
-    }
+  .nav_a_la_izquierda li a {
+    padding-right: 10px;
+    margin: 0;
+  }
 
-  .Seccion_ultima_visita{
+  .nav_a_la_derecha li a {
+    padding-right: 10px;
+    margin: 0;
+  }
+
+  .section-banner img {
+    margin-top: 50px;
+  }
+
+  .Seccion_ultima_visita {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .article_seccion_ultima_visita{
-margin: auto;
-margin-top: 10px;
+  .article_seccion_ultima_visita {
+    margin: auto;
+    margin-top: 10px;
     width: 45%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    main section article i{
-    
-      padding: auto;
-      width: 28.5px;
-      height: 28.5px;
-       margin-left: 160px;
-       top: -31px;
-       
-     }
-     .form-registro{
+  }
+  main section article i {
+    padding: auto;
+    width: 28.5px;
+    height: 28.5px;
+    margin-left: 160px;
+    top: -31px;
+  }
+  .Texto_nombre_producto {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
 
-      margin: 10%;
-      width: 50%;
-     }
+  .Texto_nombre_producto:hover {
+    opacity: 1;
+  }
 
+  .form-registro {
+    margin: 10%;
+    width: 50%;
+  }
 }
 
 @media (min-width: 1024px) {
-  
-  .nav_header{
+  header {
+    height: 45vh;
+    
+    position: relative;
+  }
+  header img {
+    width: 100px;
+    height: 100px;
+    margin-left: -70px;
+  }
+
+  .nav_header {
     display: block;
     display: flex;
-  
-   justify-content: space-around;
+    justify-content: space-around;
    
+    top:-25px;
+    position: relative;
   }
 
-  .nav_a_la_izquierda{
-display: flex;
-padding: 1%;
-  }
-
-  .nav_a_la_derecha{
+  .nav_a_la_izquierda {
     display: flex;
     padding: 1%;
   }
 
-  .nav_a_la_izquierda li a{
+  .nav_a_la_derecha {
+    display: flex;
+    padding: 1%;
+  }
+
+  .nav_a_la_izquierda li a {
     padding-right: 10px;
     margin: 0;
   }
 
-  .nav_a_la_derecha li a{
+  .nav_a_la_derecha li a {
     padding-right: 10px;
     margin: 0;
   }
 
-  .header_logo_compras{
+  .header_logo_compras {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     padding: 5%;
-    }
+  }
 
-    .header_logo_compras div{
-      padding: 1%;
-    }
+  .header_logo_compras div {
+    padding: 1%;
+   
+  }
 
-  .icom-hamburguesa{
+  .icom-hamburguesa {
     display: none;
   }
 
-  .header_logo_compras{
+  .header_logo_compras {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   
     padding: 5%;
-    }
+  }
 
-  .Seccion_ultima_visita{
+  
+  .section-banner img {
+    margin: 50px 0;
+  }
+
+  .Seccion_ultima_visita {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .article_seccion_ultima_visita{
-margin: auto;
-margin-top: 10px;
+  .article_seccion_ultima_visita {
+    margin: auto;
+    margin-top: 10px;
     width: 20%;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
-  main section article i{
-    
-   padding: auto;
-   width: 28.5px;
-   height: 28.5px;
+
+  main article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100, 0);
+    transition: border 0.5s;
+  }
+
+  main article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100, 1);
+  }
+
+  main section article i {
+    padding: auto;
+    width: 28.5px;
+    height: 28.5px;
     margin-left: 30px;
     top: -31px;
-
-    
-    
   }
-  .form-registro{
 
+  .form-registro {
     margin: 10%;
     width: 30%;
-   }
+  }
+
+  .Texto_nombre_producto {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+  .Texto_nombre_producto:hover {
+    opacity: 1;
+  }
+
+  footer section {
+    width: 33.33%;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-button{
-  background-color: #1259c3;
-color: #ebebeb;
-}
- input{
-  width: 100%;
- }

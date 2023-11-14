@@ -11,3 +11,19 @@ border: 5px;
 
     padding: 2%;
  }
+
+ button{
+    background-color: #f2c0d4;
+  color: #ebebeb;
+
+  transition: background-color 0.5s;
+  }
+
+button:hover{
+
+background-color:#0022AA;
+}
+
+  .botones{
+   display: flex;
+}

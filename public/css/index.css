@@ -1,34 +1,31 @@
 body {
   width: 100vw;
   background-color: var(--Gris-claro);
- 
-}
-main{
-  margin: 10px;
 }
 
-.header_logo_compras img{
+.header_logo_compras img {
   width: 40%;
 }
 
-.header_logo_compras{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-
-padding:10%;
+.header_logo_compras {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10%;
 }
 
-.header_logo_compras div{
+.header_logo_compras div {
   padding: 5%;
+}
 
+header {
+  width: 100vw;
+  height: 60vh;
 }
 
 .section-banner img {
   width: 100vw;
 }
-
-
 
 .article_seccion_ultima_visita img {
   width: 100%;
@@ -38,56 +35,67 @@ padding:10%;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
- 
+
   padding: 15px;
 }
 
-.h2-Seccion_Ofertas{
-color: var(--Gris-oscuro);
-font-size: 24px;
-}
-
-.h2-Seccion_ultima_vista{
+.h2-Seccion_Ofertas {
   color: var(--Gris-oscuro);
   font-size: 24px;
 }
 
-.Texto_precio{
+.h2-Seccion_ultima_vista {
+  color: var(--Gris-oscuro);
+  font-size: 24px;
+}
+
+.Texto_precio {
   padding-top: 3%;
-font-size: 18px;
-
-
+  font-size: 18px;
 }
 
-.Texto_descuento{
+.Texto_descuento {
   padding-top: 3%;
-color: var( --color-Verde);
-font-size: 16px;
-
+  color: var(--color-Verde);
+  font-size: 16px;
 }
 
-.Texto_nombre_producto{
-width: 100%;
-margin-bottom: 3%;
-font-size: 16px;
+.Texto_nombre_producto {
+  width: 100%;
+  margin-bottom: 3%;
+  font-size: 16px;
 }
-main section article i{
+
+main section article i {
   display: block;
   font-size: 16px;
   padding: 5px;
   width: 30px;
   height: 30px;
   border: 1px solid #39b54a;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 50%;
   position: absolute;
- margin-left:  100px;
+  margin-left: 100px;
   top: -30px;
-  
-  
-  
-  }
+}
 main section article div {
   position: relative;
+}
 
+main i {
+  transition: transform 0.3s ease;
+}
+
+main i:hover {
+  transform: rotate(-90deg);
+}
+
+.texto-header {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+h2 {
+  padding: 10px;
 }
